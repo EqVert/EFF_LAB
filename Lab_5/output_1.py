@@ -6,17 +6,17 @@ class Product:
 
 class ProductSearch:
   def search_product(self, query):
-    # Імплементація пошуку продукту
+    # Пошук продукту
     pass
 
 class ProductDisplay:
   def display_product(self, product):
-    # Імплементація відображення деталей продукту
+    # Відображення деталей продукту
     print(f"Product: {product.name}, Price: {product.price}, Type: {product.type}")
 
 class ProductOrder:
   def order_product(self, product, quantity):
-    # Імплементація процесу замовлення
+    # Процес замовлення
     print(f"Ordered {quantity} of {product.name}")
 
 # Приклад використання: 
